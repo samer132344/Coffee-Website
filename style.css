@@ -12,7 +12,7 @@ body {
   }
   
   .intro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/images/coffee2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/Coffee-Website/images/coffee2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
