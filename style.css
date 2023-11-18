@@ -1,0 +1,134 @@
+body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    background: #e8e8e8;
+  }
+  
+  .btn {
+    box-shadow: none !important;
+  }
+  
+  .fi-el {
+    padding-right: 25px !important;
+  }
+  
+  .intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(/images/coffee2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .text-padding {
+    padding: 100px;
+  }
+  
+  .coffee-img {
+    width: 100%;
+    border-radius: 185px;
+  }
+  
+  ::selection {
+    background: #9c6602;
+  }
+  
+  .pargraphs p {
+    width: 70%;
+  }
+  
+  .image {
+    position: relative;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hover-animate {
+    transition: 0.5s;
+  }
+  
+  .fix-image {
+    filter: brightness(65%);
+    border-radius: 15px;
+  }
+  
+  .hover-animate:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .margin-most-popular {
+    margin-top: 50px;
+  }
+  
+  hr {
+    width: 40%;
+    margin: 100px auto;
+  }
+  
+  .p-container p {
+    margin-top: 1.5rem;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .text-padding {
+      padding: 30px;
+    }
+  
+    .edit-margin-text {
+      margin-top: 2rem !important;
+    }
+  
+    .margin-md-img {
+      margin-top: 10px !important;
+    }
+  
+    .edit-p {
+      padding: 0 !important;
+    }
+  
+    .coffee-info-title {
+      margin-top: 30px;
+    }
+  
+    .margin-most-popular {
+      margin-top: 0;
+    }
+  
+    .pargraphs p {
+      width: 100%;
+    }
+  
+    .img-p {
+      text-align: center !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .text-padding {
+      padding: 10px;
+    }
+  
+    .p-container {
+      padding: 1rem !important;
+    }
+  
+    .img-p img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 568px) {
+    .p-container {
+      padding: 0.5rem !important;
+    }
+  }
+  
